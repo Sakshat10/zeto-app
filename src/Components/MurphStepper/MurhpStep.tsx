@@ -159,7 +159,7 @@ const MurphStep: React.FC = () => {
                   <input
                     type="text"
                     name="depositRecipient"
-                    className="border border-gray-300 rounded-md p-2 w-full text-black"
+                    className="border border-gray-300 rounded-md p-2 w-full text-black ml-2"
                     placeholder="Enter recipient address"
                     value={depositRecipient}
                     onChange={(e) => setDepositRecipient(e.target.value)}
@@ -179,7 +179,7 @@ const MurphStep: React.FC = () => {
                   <input
                     type="text"
                     name="depositAmount"
-                    className="border border-gray-300 rounded-md p-2 w-full text-black"
+                    className="border border-gray-300 rounded-md p-2 w-full text-black ml-2"
                     placeholder="Enter amount"
                     value={depositAmount}
                     onChange={(e) => setDepositAmount(e.target.value)}
